@@ -11,6 +11,7 @@ import Address from './Component/products/Address';
 import Shop from './Component/products/Shop';
 import Explore from './Component/products/Explore';
 import AppNavigations from './Component/navigation/AppNavigation';
+import BoardingScreens from './Component/products/BoardingScreens';
 function App(): React.JSX.Element {
   return (
     <SafeAreaView style={{ flex: 1 }}>
@@ -18,6 +19,7 @@ function App(): React.JSX.Element {
         <ProductTabs/>
       </NavigationContainer> */}
       <AppNavigations/>
+      {/* <BoardingScreens/> */}
     </SafeAreaView>
 
   )

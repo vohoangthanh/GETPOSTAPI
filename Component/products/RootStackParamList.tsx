@@ -10,6 +10,9 @@ export enum RootStackScreensEnum {
     Oder = "Oder",
     Oder2 = "Oder2",
     TabScreens = "TabScreens",
+    SignUp = "SignUp",
+    SignPass = "SignPass",
+    SignCode= "SignCode",
   }
   
   // tạo 1 type để định nghĩa các params của các màn hình
@@ -25,4 +28,7 @@ export enum RootStackScreensEnum {
     Oder: undefined;
     Oder2: undefined;
     Boarding:undefined;
+    SignUp:undefined;
+    SignPass:undefined;
+    SignCode:undefined;
   }

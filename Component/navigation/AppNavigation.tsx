@@ -19,6 +19,9 @@ import Favorite from '../products/Favorite';
 import BoardingScreens from '../products/BoardingScreens';
 import Oder from '../products/Oder';
 import Oder2 from '../products/Oder2';
+import SignUp from '../products/SignUp';
+import SignPass from '../products/SignPass';
+import SignCode from '../products/SignCode';
 
 const Stack = createStackNavigator<RootStackParamList>();
 const Tab = createBottomTabNavigator<RootStackParamList>();
@@ -172,18 +175,18 @@ const AppNavigations = (): React.JSX.Element => {
                     name={RootStackScreensEnum.Boarding}
                     component={BoardingScreens}
                 />
-                {/* <Stack.Screen
+                <Stack.Screen
+                    name={RootStackScreensEnum.SignCode}
+                    component={SignCode}
+                />
+                <Stack.Screen
+                    name={RootStackScreensEnum.SignPass}
+                    component={SignPass}
+                />
+                <Stack.Screen
                     name={RootStackScreensEnum.SignUp}
-                    component={SignUpScreens}
+                    component={SignUp}
                 />
-                <Stack.Screen
-                    name={RootStackScreensEnum.SignUpPass}
-                    component={SignUpPassScreens}
-                />
-                <Stack.Screen
-                    name={RootStackScreensEnum.SignUpCode}
-                    component={CodePhoneScreens}
-                /> */}
                 <Stack.Screen
                     name={RootStackScreensEnum.Oder2}
                     component={Oder2}
